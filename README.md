@@ -1,21 +1,13 @@
 
-<h1 align="center">🚀 Kunal's Coding Dashboard</h1>
+<h1 align="center">🚀 Kunal's LeetCode Dashboard</h1>
 
 <p align="center">
   <img src="https://leetcard.jacoblin.cool/kunal_codexx?theme=dark&font=baloo&ext=contest" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=KunalAnand7222&show_icons=true&theme=radical" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=KunalAnand7222&theme=react-dark" />
-</p>
-
 ---
 
-## 📊 LeetCode Breakdown
+## 📊 Problem Breakdown
 
 | Level | Count |
 |------|------|
@@ -25,36 +17,38 @@
 
 ---
 
-## 🔥 Coding Activity
-- 🚀 Total Problems Solved: 160
+## 🔥 Daily Activity
 - 🗓️ Problems Solved Today: 4
-- 💡 Focus: Data Structures & Algorithms
-- ⚡ Consistency Mode: ON
+
+### 📋 Today's Problems
+- Lexicographically Smallest Generated String
+- Lexicographically Smallest Generated String
+- Lexicographically Smallest Generated String
+- Lexicographically Smallest Generated String
 
 ---
 
-## 🏆 Contest & Ranking
+## 📊 Performance
+- 🎯 Total Solved: 80
+- 📈 Acceptance Rate: 61.54%
+- 💡 Focus: DSA + Optimization
+
+---
+
+## 🏆 Ranking
 - 🌍 Global Rank: 1761803
 
 ---
 
-## 📈 Activity Streak
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=KunalAnand7222&theme=radical" />
-</p>
+## 🤖 Learning Summary
+Strengthened understanding of data structures and algorithmic patterns.
 
 ---
 
-## 🤖 AI Learning Summary
-Focused on optimizing problem-solving approaches and improving time complexity.
-
----
-
-## 🌐 Connect With Me
+## 🌐 Connect
 - 🔗 Portfolio: https://kunalportfoliioo.netlify.app/
-- 💻 GitHub: https://github.com/KunalAnand7222
 - 📊 LeetCode: https://leetcode.com/u/kunal_codexx/
 
 ---
 
-⭐ Auto-updated every 30 minutes using GitHub Actions
+⭐ Auto-updated hourly using GitHub Actions
