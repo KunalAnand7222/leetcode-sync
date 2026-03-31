@@ -13,10 +13,12 @@ jobs:
       - uses: actions/setup-python@v4
       - run: pip install requests
       - run: python script.py
-      - name: Commit
+      - name: Commit and Push
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add .
-          git diff --cached --quiet || git commit -m "Update LeetCode stats"
-          git push
+          git commit -m "Update LeetCode stats" || echo "No changes"
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
