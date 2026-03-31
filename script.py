@@ -23,7 +23,31 @@ res=requests.post(ana,json=ani).json()
 ab=res["data"]["matchedUser"]["submitStatsGlobal"]["acSubmissionNum"]
 
 xy={i["difficulty"]:i["count"] for i in ab}
+ani2={
+"query":"""
+query recentSubmissions($username: String!) {
+  recentSubmissionList(username: $username) {
+    title
+    timestamp
+  }
+}
+""",
+"variables":{"username":ku}
+}
 
+res2=requests.post(ana,json=ani2).json()
+
+subs=res2["data"]["recentSubmissionList"]
+
+import datetime
+
+today=datetime.datetime.utcnow().date()
+
+count=0
+for i in subs:
+    t=datetime.datetime.utcfromtimestamp(int(i["timestamp"])).date()
+    if t==today:
+        count+=1
 readme=f"""
 <h1 align="center">🚀 Kunal's Coding Dashboard</h1>
 
