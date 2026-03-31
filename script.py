@@ -107,7 +107,8 @@ if today_count==0:
 else:
     today_section="\n".join([f"- {i}" for i in today_list])
 
-# ---------- CHART CONFIG ----------
+# ----------- CHART CONFIG (FINAL POLISHED) -----------
+
 pie_config={
 "type":"doughnut",
 "data":{
@@ -116,6 +117,15 @@ pie_config={
 "data":[easy,med,hard],
 "backgroundColor":["#22c55e","#facc15","#ef4444"]
 }]
+},
+"options":{
+"plugins":{
+"legend":{"labels":{"color":"white"}},
+"datalabels":{
+"color":"black",
+"font":{"weight":"bold","size":14}
+}
+}
 }
 }
 
@@ -126,14 +136,26 @@ week_config={
 "datasets":[{
 "label":"Solved",
 "data":values,
-"backgroundColor":"#22c55e"
+"backgroundColor":[
+"#22c55e",
+"#4ade80",
+"#86efac",
+"#bbf7d0",
+"#16a34a",
+"#15803d",
+"#166534"
+]
 }]
+},
+"options":{
+"plugins":{
+"legend":{"labels":{"color":"white"}}
+}
 }
 }
 
 pie_chart="https://quickchart.io/chart?c="+urllib.parse.quote(str(pie_config))
 week_chart="https://quickchart.io/chart?c="+urllib.parse.quote(str(week_config))
-
 # ---------- README ----------
 readme=f"""
 <h1 align="center">🚀 Kunal's LeetCode Dashboard</h1>
