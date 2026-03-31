@@ -51,7 +51,7 @@
 ---
 
 ## 🤖 Learning Insight
-Building strong intuition in data structures and algorithms.
+Focusing on consistency and tackling diverse problem patterns.
 
 ---
 
