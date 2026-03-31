@@ -1,10 +1,10 @@
-import requests,datetime,random,collections
+import requests,datetime,random,collections,urllib.parse
 
 ku="kunal_codexx"
 portfolio="https://kunalportfoliioo.netlify.app/"
 ana="https://leetcode.com/graphql"
 
-# ----------- PROFILE -----------
+# ---------- FETCH PROFILE ----------
 ani={
 "query":"""
 query getUserProfile($username: String!) {
@@ -34,7 +34,7 @@ easy,med,hard=xy.get("Easy",0),xy.get("Medium",0),xy.get("Hard",0)
 total=easy+med+hard
 ranking=user["profile"]["ranking"]
 
-# ----------- RECENT SUBMISSIONS -----------
+# ---------- FETCH SUBMISSIONS ----------
 ani2={
 "query":"""
 query recentSubmissions($username: String!) {
@@ -64,44 +64,77 @@ for i in subs:
 
     week_map[d]+=1
 
-today_list=list(today_set)
+today_list=sorted(list(today_set))
 today_count=len(today_list)
 
-# ----------- SORT WEEKLY DATA -----------
+# ---------- WEEKLY TREND ----------
 week_sorted=sorted(week_map.items())[-7:]
 labels=[str(i[0])[5:] for i in week_sorted]
 values=[i[1] for i in week_sorted]
 
-# ----------- PROGRESS % -----------
+# ---------- PROGRESS ----------
 easy_p=round((easy/total)*100,1) if total else 0
 med_p=round((med/total)*100,1) if total else 0
 hard_p=round((hard/total)*100,1) if total else 0
 
-# ----------- INTERVIEW SCORE -----------
-score=min(100,int((total*0.6)+(med*1.2)+(hard*2)))
+# ---------- INTERVIEW SCORE ----------
+score=min(100,int((easy*0.5)+(med*1.5)+(hard*3)))
 
-# ----------- COMPANY TAGGING (SMART SIMULATION) -----------
-companies=["Amazon","Google","Microsoft","Adobe","Flipkart"]
-company_tags=random.sample(companies,3)
+# ---------- CONSISTENCY ----------
+active_days=sum(1 for v in values if v>0)
 
-company_section="\n".join([f"- {c}" for c in company_tags])
+if active_days>=5:
+    consistency="🔥 Highly Consistent"
+elif active_days>=3:
+    consistency="⚡ Improving"
+else:
+    consistency="📈 Needs Consistency"
 
-# ----------- TODAY LIST -----------
+# ---------- AI SUMMARY ----------
+ai_pool=[
+"Improving problem-solving speed and optimizing approaches.",
+"Building strong intuition in data structures and algorithms.",
+"Focusing on consistency and tackling diverse problem patterns.",
+"Enhancing debugging skills and logical thinking.",
+"Strengthening concepts for coding interviews."
+]
+
+ai=random.choice(ai_pool)
+
+# ---------- TODAY LIST ----------
 if today_count==0:
     today_section="No problems solved today 🚀"
 else:
     today_section="\n".join([f"- {i}" for i in today_list])
 
-# ----------- CHARTS -----------
+# ---------- CHART CONFIG ----------
+pie_config={
+"type":"doughnut",
+"data":{
+"labels":["Easy","Medium","Hard"],
+"datasets":[{
+"data":[easy,med,hard],
+"backgroundColor":["#22c55e","#facc15","#ef4444"]
+}]
+}
+}
 
-# Doughnut (colored)
-pie_chart=f"https://quickchart.io/chart?c={{type:'doughnut',data:{{labels:['Easy','Medium','Hard'],datasets:[{{data:[{easy},{med},{hard}],backgroundColor:['#22c55e','#facc15','#ef4444']}}]}}}}"
+week_config={
+"type":"bar",
+"data":{
+"labels":labels,
+"datasets":[{
+"label":"Solved",
+"data":values,
+"backgroundColor":"#22c55e"
+}]
+}
+}
 
-# Weekly chart (green bars)
-week_chart=f"https://quickchart.io/chart?c={{type:'bar',data:{{labels:{labels},datasets:[{{label:'Solved',data:{values},backgroundColor:'#22c55e'}}]}}}}"
+pie_chart="https://quickchart.io/chart?c="+urllib.parse.quote(str(pie_config))
+week_chart="https://quickchart.io/chart?c="+urllib.parse.quote(str(week_config))
 
-# ----------- README -----------
-
+# ---------- README ----------
 readme=f"""
 <h1 align="center">🚀 Kunal's LeetCode Dashboard</h1>
 
@@ -112,14 +145,13 @@ readme=f"""
 ---
 
 ## 📊 Problem Breakdown
-
 <p align="center">
 <img src="{pie_chart}" />
 </p>
 
 ---
 
-## 📈 Difficulty Progress
+## 📈 Difficulty Distribution
 - 🟢 Easy: {easy_p}%  
 - 🟡 Medium: {med_p}%  
 - 🔴 Hard: {hard_p}%  
@@ -141,19 +173,20 @@ readme=f"""
 
 ---
 
+## ⚡ Consistency Status
+{consistency}
+
+---
+
 ## 🎯 Performance
 - 🚀 Total Solved: {total}
 - 🌍 Global Rank: {ranking}
+- 💯 Interview Readiness Score: {score}/100
 
 ---
 
-## 🧠 Company Focus
-{company_section}
-
----
-
-## 🏆 Interview Readiness Score
-- 💯 Score: {score}/100
+## 🤖 Learning Insight
+{ai}
 
 ---
 
@@ -165,6 +198,6 @@ readme=f"""
 with open("README.md","w") as f:
     f.write(readme)
 
-# ----------- FORCE COMMIT -----------
+# ---------- FORCE COMMIT ----------
 with open("activity.txt","w") as f:
     f.write(str(random.randint(1,1000000)))
