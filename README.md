@@ -29,5 +29,3 @@
 - Union-Find  
 
 ---
-
-⭐ Auto-updated using GitHub Actions
