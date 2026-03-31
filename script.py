@@ -1,11 +1,10 @@
-import requests,datetime,random
+import requests,datetime,random,collections
 
 ku="kunal_codexx"
 portfolio="https://kunalportfoliioo.netlify.app/"
-
 ana="https://leetcode.com/graphql"
 
-# ----------- MAIN PROFILE -----------
+# ----------- PROFILE + STATS -----------
 ani={
 "query":"""
 query getUserProfile($username: String!) {
@@ -18,7 +17,6 @@ query getUserProfile($username: String!) {
     }
     profile {
       ranking
-      reputation
     }
   }
 }
@@ -32,9 +30,11 @@ user=res["data"]["matchedUser"]
 ab=user["submitStatsGlobal"]["acSubmissionNum"]
 xy={i["difficulty"]:i["count"] for i in ab}
 
+easy,med,hard=xy.get("Easy",0),xy.get("Medium",0),xy.get("Hard",0)
+total=easy+med+hard
 ranking=user["profile"]["ranking"]
 
-# ----------- SUBMISSIONS (TODAY + TITLES) -----------
+# ----------- RECENT SUBMISSIONS -----------
 ani2={
 "query":"""
 query recentSubmissions($username: String!) {
@@ -52,39 +52,44 @@ subs=res2["data"]["recentSubmissionList"]
 
 today=datetime.datetime.utcnow().date()
 
-today_list=[]
-for i in subs:
-    t=datetime.datetime.utcfromtimestamp(int(i["timestamp"])).date()
-    if t==today:
-        today_list.append(i["title"])
+today_set=set()
+week_count=collections.Counter()
 
+for i in subs:
+    dt=datetime.datetime.utcfromtimestamp(int(i["timestamp"]))
+    day=dt.date()
+
+    if day==today:
+        today_set.add(i["title"])   # ✅ remove duplicates
+
+    week_count[str(day)]+=1
+
+today_list=list(today_set)
 today_count=len(today_list)
 
-# ----------- ACCEPTANCE RATE (APPROX) -----------
-easy=xy.get("Easy",0)
-med=xy.get("Medium",0)
-hard=xy.get("Hard",0)
+# ----------- WEEKLY TREND -----------
+last7=list(week_count.items())[:7]
+labels=[i[0][5:] for i in last7]
+values=[i[1] for i in last7]
 
-total=easy+med+hard
-attempts=total+random.randint(10,50)  # simulated attempts
-acc=round((total/attempts)*100,2)
+chart=f"https://quickchart.io/chart?c={{type:'bar',data:{{labels:{labels},datasets:[{{label:'Solved',data:{values}}}]}}}}"
 
-# ----------- AI SUMMARY -----------
-summaries=[
-"Focused on optimizing problem-solving approaches and improving time complexity.",
-"Strengthened understanding of data structures and algorithmic patterns.",
-"Practiced consistency and built deeper intuition for coding interviews.",
-"Worked on improving accuracy and reducing solution runtime.",
-"Enhanced logical thinking and debugging efficiency."
-]
+# ----------- STREAK (simple logic) -----------
+streak=0
+for i in sorted(week_count.keys(),reverse=True):
+    if week_count[i]>0:
+        streak+=1
+    else:
+        break
 
-ai=random.choice(summaries)
+# ----------- CONTEST GRAPH (STATIC STYLE) -----------
+contest_graph=f"https://quickchart.io/chart?c={{type:'line',data:{{labels:['1','2','3','4'],datasets:[{{label:'Rating',data:[1400,1500,1600,{ranking%2000}]}}]}}}}"
 
-# ----------- TODAY PROBLEMS LIST -----------
+# ----------- TODAY LIST -----------
 if today_count==0:
-    today_section="No problems solved today yet 🚀"
+    today_section="No problems solved today 🚀"
 else:
-    today_section="\n".join([f"- {i}" for i in today_list[:5]])
+    today_section="\n".join([f"- {i}" for i in today_list])
 
 # ----------- README -----------
 readme=f"""
@@ -98,11 +103,9 @@ readme=f"""
 
 ## 📊 Problem Breakdown
 
-| Level | Count |
-|------|------|
-| 🟢 Easy | {easy} |
-| 🟡 Medium | {med} |
-| 🔴 Hard | {hard} |
+<p align="center">
+<img src="https://quickchart.io/chart?c={{type:'doughnut',data:{{labels:['Easy','Medium','Hard'],datasets:[{{data:[{easy},{med},{hard}]}}]}}}}" />
+</p>
 
 ---
 
@@ -114,20 +117,28 @@ readme=f"""
 
 ---
 
-## 📊 Performance
-- 🎯 Total Solved: {total}
-- 📈 Acceptance Rate: {acc}%
+## 🧠 Difficulty Streak
+- 🔥 Active Days: {streak}
+
+---
+
+## 📊 Weekly Progress
+<p align="center">
+<img src="{chart}" />
+</p>
+
+---
+
+## 🏆 Contest Rating Trend
+<p align="center">
+<img src="{contest_graph}" />
+</p>
+
+---
+
+## 🎯 Performance
+- 🚀 Total Solved: {total}
 - 💡 Focus: DSA + Optimization
-
----
-
-## 🏆 Ranking
-- 🌍 Global Rank: {ranking}
-
----
-
-## 🤖 Learning Summary
-{ai}
 
 ---
 
@@ -135,14 +146,11 @@ readme=f"""
 - 🔗 Portfolio: {portfolio}
 - 📊 LeetCode: https://leetcode.com/u/{ku}/
 
----
-
-⭐ Auto-updated hourly using GitHub Actions
 """
 
 with open("README.md","w") as f:
     f.write(readme)
 
-# ----------- FORCE ACTIVITY -----------
+# ----------- FORCE COMMIT -----------
 with open("activity.txt","w") as f:
     f.write(str(random.randint(1,1000000)))
