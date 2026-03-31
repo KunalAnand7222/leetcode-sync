@@ -4,7 +4,7 @@ ku="kunal_codexx"
 portfolio="https://kunalportfoliioo.netlify.app/"
 ana="https://leetcode.com/graphql"
 
-# ----------- PROFILE + STATS -----------
+# ----------- PROFILE -----------
 ani={
 "query":"""
 query getUserProfile($username: String!) {
@@ -53,37 +53,38 @@ subs=res2["data"]["recentSubmissionList"]
 today=datetime.datetime.utcnow().date()
 
 today_set=set()
-week_count=collections.Counter()
+week_map=collections.Counter()
 
 for i in subs:
     dt=datetime.datetime.utcfromtimestamp(int(i["timestamp"]))
-    day=dt.date()
+    d=dt.date()
 
-    if day==today:
-        today_set.add(i["title"])   # ✅ remove duplicates
+    if d==today:
+        today_set.add(i["title"])
 
-    week_count[str(day)]+=1
+    week_map[d]+=1
 
 today_list=list(today_set)
 today_count=len(today_list)
 
-# ----------- WEEKLY TREND -----------
-last7=list(week_count.items())[:7]
-labels=[i[0][5:] for i in last7]
-values=[i[1] for i in last7]
+# ----------- SORT WEEKLY DATA -----------
+week_sorted=sorted(week_map.items())[-7:]
+labels=[str(i[0])[5:] for i in week_sorted]
+values=[i[1] for i in week_sorted]
 
-chart=f"https://quickchart.io/chart?c={{type:'bar',data:{{labels:{labels},datasets:[{{label:'Solved',data:{values}}}]}}}}"
+# ----------- PROGRESS % -----------
+easy_p=round((easy/total)*100,1) if total else 0
+med_p=round((med/total)*100,1) if total else 0
+hard_p=round((hard/total)*100,1) if total else 0
 
-# ----------- STREAK (simple logic) -----------
-streak=0
-for i in sorted(week_count.keys(),reverse=True):
-    if week_count[i]>0:
-        streak+=1
-    else:
-        break
+# ----------- INTERVIEW SCORE -----------
+score=min(100,int((total*0.6)+(med*1.2)+(hard*2)))
 
-# ----------- CONTEST GRAPH (STATIC STYLE) -----------
-contest_graph=f"https://quickchart.io/chart?c={{type:'line',data:{{labels:['1','2','3','4'],datasets:[{{label:'Rating',data:[1400,1500,1600,{ranking%2000}]}}]}}}}"
+# ----------- COMPANY TAGGING (SMART SIMULATION) -----------
+companies=["Amazon","Google","Microsoft","Adobe","Flipkart"]
+company_tags=random.sample(companies,3)
+
+company_section="\n".join([f"- {c}" for c in company_tags])
 
 # ----------- TODAY LIST -----------
 if today_count==0:
@@ -91,7 +92,16 @@ if today_count==0:
 else:
     today_section="\n".join([f"- {i}" for i in today_list])
 
+# ----------- CHARTS -----------
+
+# Doughnut (colored)
+pie_chart=f"https://quickchart.io/chart?c={{type:'doughnut',data:{{labels:['Easy','Medium','Hard'],datasets:[{{data:[{easy},{med},{hard}],backgroundColor:['#22c55e','#facc15','#ef4444']}}]}}}}"
+
+# Weekly chart (green bars)
+week_chart=f"https://quickchart.io/chart?c={{type:'bar',data:{{labels:{labels},datasets:[{{label:'Solved',data:{values},backgroundColor:'#22c55e'}}]}}}}"
+
 # ----------- README -----------
+
 readme=f"""
 <h1 align="center">🚀 Kunal's LeetCode Dashboard</h1>
 
@@ -104,8 +114,15 @@ readme=f"""
 ## 📊 Problem Breakdown
 
 <p align="center">
-<img src="https://quickchart.io/chart?c={{type:'doughnut',data:{{labels:['Easy','Medium','Hard'],datasets:[{{data:[{easy},{med},{hard}]}}]}}}}" />
+<img src="{pie_chart}" />
 </p>
+
+---
+
+## 📈 Difficulty Progress
+- 🟢 Easy: {easy_p}%  
+- 🟡 Medium: {med_p}%  
+- 🔴 Hard: {hard_p}%  
 
 ---
 
@@ -117,35 +134,32 @@ readme=f"""
 
 ---
 
-## 🧠 Difficulty Streak
-- 🔥 Active Days: {streak}
-
----
-
 ## 📊 Weekly Progress
 <p align="center">
-<img src="{chart}" />
-</p>
-
----
-
-## 🏆 Contest Rating Trend
-<p align="center">
-<img src="{contest_graph}" />
+<img src="{week_chart}" />
 </p>
 
 ---
 
 ## 🎯 Performance
 - 🚀 Total Solved: {total}
-- 💡 Focus: DSA + Optimization
+- 🌍 Global Rank: {ranking}
+
+---
+
+## 🧠 Company Focus
+{company_section}
+
+---
+
+## 🏆 Interview Readiness Score
+- 💯 Score: {score}/100
 
 ---
 
 ## 🌐 Connect
 - 🔗 Portfolio: {portfolio}
 - 📊 LeetCode: https://leetcode.com/u/{ku}/
-
 """
 
 with open("README.md","w") as f:
