@@ -22,12 +22,10 @@
 ---
 
 ## 🔥 Daily Activity
-- 🗓️ Problems Solved Today: 3
+- 🗓️ Problems Solved Today: 0
 
 ### 📋 Today's Problems
-- Lexicographically Smallest Generated String
-- Reverse Integer
-- Roman to Integer
+No problems solved today 🚀
 
 ---
 
