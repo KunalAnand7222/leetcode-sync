@@ -49,7 +49,7 @@
 ---
 
 ## 🤖 Learning Insight
-Strengthening concepts for coding interviews.
+Building strong intuition in data structures and algorithms.
 
 ---
 
