@@ -49,7 +49,7 @@
 ---
 
 ## 🤖 Learning Insight
-Strengthening concepts for coding interviews.
+Enhancing debugging skills and logical thinking.
 
 ---
 
