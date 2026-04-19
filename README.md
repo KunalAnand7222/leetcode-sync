@@ -47,13 +47,13 @@
 
 ## 🎯 Performance
 - 🚀 Total Solved: 107
-- 🌍 Global Rank: 1477039
+- 🌍 Global Rank: 1417986
 - 💯 Interview Readiness Score: 100/100
 
 ---
 
 ## 🤖 Learning Insight
-Building strong intuition in data structures and algorithms.
+Strengthening concepts for coding interviews.
 
 ---
 
