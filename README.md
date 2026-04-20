@@ -22,14 +22,10 @@
 ---
 
 ## 🔥 Daily Activity
-- 🗓️ Problems Solved Today: 5
+- 🗓️ Problems Solved Today: 0
 
 ### 📋 Today's Problems
-- Count Good Integers on a Grid Path
-- Maximum Distance Between a Pair of Values
-- Multi Source Flood Fill
-- Smallest Stable Index I
-- Smallest Stable Index II
+No problems solved today 🚀
 
 ---
 
