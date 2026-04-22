@@ -68,7 +68,7 @@
 ---
 
 ## 🤖 Learning Insight
-Focusing on consistency and tackling diverse problem patterns.
+Enhancing debugging skills and logical thinking.
 
 ---
 
