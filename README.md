@@ -9,15 +9,15 @@
 
 ## 📊 Problem Breakdown
 <p align="center">
-<img src="https://quickchart.io/chart?c=%7B%27type%27%3A%20%27doughnut%27%2C%20%27data%27%3A%20%7B%27labels%27%3A%20%5B%27Easy%27%2C%20%27Medium%27%2C%20%27Hard%27%5D%2C%20%27datasets%27%3A%20%5B%7B%27data%27%3A%20%5B87%2C%2080%2C%2013%5D%2C%20%27backgroundColor%27%3A%20%5B%27%2322c55e%27%2C%20%27%23facc15%27%2C%20%27%23ef4444%27%5D%7D%5D%7D%2C%20%27options%27%3A%20%7B%27plugins%27%3A%20%7B%27legend%27%3A%20%7B%27labels%27%3A%20%7B%27color%27%3A%20%27white%27%7D%7D%2C%20%27datalabels%27%3A%20%7B%27color%27%3A%20%27black%27%2C%20%27font%27%3A%20%7B%27weight%27%3A%20%27bold%27%2C%20%27size%27%3A%2014%7D%7D%7D%7D%7D" />
+<img src="https://quickchart.io/chart?c=%7B%27type%27%3A%20%27doughnut%27%2C%20%27data%27%3A%20%7B%27labels%27%3A%20%5B%27Easy%27%2C%20%27Medium%27%2C%20%27Hard%27%5D%2C%20%27datasets%27%3A%20%5B%7B%27data%27%3A%20%5B89%2C%2081%2C%2015%5D%2C%20%27backgroundColor%27%3A%20%5B%27%2322c55e%27%2C%20%27%23facc15%27%2C%20%27%23ef4444%27%5D%7D%5D%7D%2C%20%27options%27%3A%20%7B%27plugins%27%3A%20%7B%27legend%27%3A%20%7B%27labels%27%3A%20%7B%27color%27%3A%20%27white%27%7D%7D%2C%20%27datalabels%27%3A%20%7B%27color%27%3A%20%27black%27%2C%20%27font%27%3A%20%7B%27weight%27%3A%20%27bold%27%2C%20%27size%27%3A%2014%7D%7D%7D%7D%7D" />
 </p>
 
 ---
 
 ## 📈 Difficulty Distribution
-- 🟢 Easy: 48.3%  
-- 🟡 Medium: 44.4%  
-- 🔴 Hard: 7.2%  
+- 🟢 Easy: 48.1%  
+- 🟡 Medium: 43.8%  
+- 🔴 Hard: 8.1%  
 
 ---
 
@@ -27,14 +27,14 @@
 ### 📋 Today's Problems
 - Add Digits
 - Beautiful Array
-- Count Primes
 - Divide Two Integers
-- Gray Code
 - Integer to Roman
-- Interval Cancellation
+- Maximal Rectangle
+- Maximum Subarray
 - Missing Number
 - Multiply Strings
-- Pow(x, n)
+- Pascal's Triangle
+- Pascal's Triangle II
 - Power of Three
 - Power of Two
 - Projection Area of 3D Shapes
@@ -42,7 +42,7 @@
 - Rectangle Area
 - Rectangle Overlap
 - Smallest Range I
-- Timeout Cancellation
+- Trapping Rain Water
 - Ugly Number
 - Unique Binary Search Trees
 
@@ -61,14 +61,14 @@
 ---
 
 ## 🎯 Performance
-- 🚀 Total Solved: 180
+- 🚀 Total Solved: 185
 - 🌍 Global Rank: 915303
 - 💯 Interview Readiness Score: 100/100
 
 ---
 
 ## 🤖 Learning Insight
-Strengthening concepts for coding interviews.
+Building strong intuition in data structures and algorithms.
 
 ---
 
