@@ -22,29 +22,10 @@
 ---
 
 ## 🔥 Daily Activity
-- 🗓️ Problems Solved Today: 20
+- 🗓️ Problems Solved Today: 0
 
 ### 📋 Today's Problems
-- Apply Transform Over Each Element in Array
-- Array Reduce Transformation
-- Average of Levels in Binary Tree
-- Count Complete Tree Nodes
-- Counter
-- Counter II
-- Create Hello World Function
-- Factorial Trailing Zeroes
-- Filter Elements from Array
-- Invert Binary Tree
-- Linked List Cycle
-- Longest Common Prefix
-- Maximum Depth of Binary Tree
-- Memoize
-- Merge Intervals
-- Minimum Absolute Difference in BST
-- Ransom Note
-- Spiral Matrix
-- Symmetric Tree
-- To Be Or Not To Be
+No problems solved today 🚀
 
 ---
 
