@@ -68,7 +68,7 @@
 ---
 
 ## 🤖 Learning Insight
-Strengthening concepts for coding interviews.
+Focusing on consistency and tackling diverse problem patterns.
 
 ---
 
