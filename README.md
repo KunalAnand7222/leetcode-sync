@@ -22,29 +22,10 @@
 ---
 
 ## 🔥 Daily Activity
-- 🗓️ Problems Solved Today: 20
+- 🗓️ Problems Solved Today: 0
 
 ### 📋 Today's Problems
-- Add Digits
-- Beautiful Array
-- Divide Two Integers
-- Integer to Roman
-- Maximal Rectangle
-- Maximum Subarray
-- Missing Number
-- Multiply Strings
-- Pascal's Triangle
-- Pascal's Triangle II
-- Power of Three
-- Power of Two
-- Projection Area of 3D Shapes
-- Rabbits in Forest
-- Rectangle Area
-- Rectangle Overlap
-- Smallest Range I
-- Trapping Rain Water
-- Ugly Number
-- Unique Binary Search Trees
+No problems solved today 🚀
 
 ---
 
@@ -68,7 +49,7 @@
 ---
 
 ## 🤖 Learning Insight
-Enhancing debugging skills and logical thinking.
+Improving problem-solving speed and optimizing approaches.
 
 ---
 
