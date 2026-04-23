@@ -65,7 +65,7 @@
 ---
 
 ## 🤖 Learning Insight
-Focusing on consistency and tackling diverse problem patterns.
+Strengthening concepts for coding interviews.
 
 ---
 
