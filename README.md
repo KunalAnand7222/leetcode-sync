@@ -22,26 +22,10 @@
 ---
 
 ## 🔥 Daily Activity
-- 🗓️ Problems Solved Today: 17
+- 🗓️ Problems Solved Today: 0
 
 ### 📋 Today's Problems
-- 3Sum
-- 3Sum Closest
-- Array Partition
-- Contains Duplicate
-- Divide an Array Into Subarrays With Minimum Cost I
-- Find All Duplicates in an Array
-- Find Smallest Letter Greater Than Target
-- Find the Difference
-- K-diff Pairs in an Array
-- Kth Largest Element in an Array
-- Majority Element II
-- Maximum Product of Three Numbers
-- Set Mismatch
-- Sort List
-- Third Maximum Number
-- Top K Frequent Elements
-- Valid Triangle Number
+No problems solved today 🚀
 
 ---
 
@@ -65,7 +49,7 @@
 ---
 
 ## 🤖 Learning Insight
-Enhancing debugging skills and logical thinking.
+Improving problem-solving speed and optimizing approaches.
 
 ---
 
