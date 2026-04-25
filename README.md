@@ -22,28 +22,10 @@
 ---
 
 ## 🔥 Daily Activity
-- 🗓️ Problems Solved Today: 19
+- 🗓️ Problems Solved Today: 0
 
 ### 📋 Today's Problems
-- Assign Cookies
-- Binary Tree Preorder Traversal
-- Continuous Subarray Sum
-- Height Checker
-- Intersection of Two Arrays
-- Kth Smallest Element in a Sorted Matrix
-- Largest Divisible Subset
-- Largest Number At Least Twice of Others
-- Largest Perimeter Triangle
-- Longest Harmonious Subsequence
-- Maximum Gap
-- Minimum Moves to Equal Array Elements II
-- Permutations II
-- Relative Ranks
-- Reverse Words in a String
-- Single Number II
-- The K Weakest Rows in a Matrix
-- Ugly Number II
-- Word Break
+No problems solved today 🚀
 
 ---
 
@@ -67,7 +49,7 @@
 ---
 
 ## 🤖 Learning Insight
-Focusing on consistency and tackling diverse problem patterns.
+Enhancing debugging skills and logical thinking.
 
 ---
 
