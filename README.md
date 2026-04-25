@@ -43,13 +43,13 @@
 
 ## 🎯 Performance
 - 🚀 Total Solved: 246
-- 🌍 Global Rank: 699503
+- 🌍 Global Rank: 594147
 - 💯 Interview Readiness Score: 100/100
 
 ---
 
 ## 🤖 Learning Insight
-Enhancing debugging skills and logical thinking.
+Focusing on consistency and tackling diverse problem patterns.
 
 ---
 
