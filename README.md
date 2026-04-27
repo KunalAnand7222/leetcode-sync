@@ -22,14 +22,10 @@
 ---
 
 ## 🔥 Daily Activity
-- 🗓️ Problems Solved Today: 5
+- 🗓️ Problems Solved Today: 0
 
 ### 📋 Today's Problems
-- Detect Cycles in 2D Grid
-- Maximum Sum of Alternating Subsequence With Distance at Least K
-- Minimum Operations to Make Array Non Decreasing
-- Sort Vowels by Frequency
-- Valid Elements in an Array
+No problems solved today 🚀
 
 ---
 
@@ -53,7 +49,7 @@
 ---
 
 ## 🤖 Learning Insight
-Improving problem-solving speed and optimizing approaches.
+Enhancing debugging skills and logical thinking.
 
 ---
 
