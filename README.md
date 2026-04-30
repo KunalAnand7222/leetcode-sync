@@ -22,12 +22,10 @@
 ---
 
 ## 🔥 Daily Activity
-- 🗓️ Problems Solved Today: 3
+- 🗓️ Problems Solved Today: 0
 
 ### 📋 Today's Problems
-- Can Place Flowers
-- Lemonade Change
-- Valid Palindrome II
+No problems solved today 🚀
 
 ---
 
