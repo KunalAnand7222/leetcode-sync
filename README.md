@@ -22,10 +22,10 @@
 ---
 
 ## 🔥 Daily Activity
-- 🗓️ Problems Solved Today: 1
+- 🗓️ Problems Solved Today: 0
 
 ### 📋 Today's Problems
-- Maximum Path Score in a Grid
+No problems solved today 🚀
 
 ---
 
@@ -49,7 +49,7 @@
 ---
 
 ## 🤖 Learning Insight
-Focusing on consistency and tackling diverse problem patterns.
+Strengthening concepts for coding interviews.
 
 ---
 
