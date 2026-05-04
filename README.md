@@ -43,13 +43,13 @@ No problems solved today 🚀
 
 ## 🎯 Performance
 - 🚀 Total Solved: 287
-- 🌍 Global Rank: 484618
+- 🌍 Global Rank: 484841
 - 💯 Interview Readiness Score: 100/100
 
 ---
 
 ## 🤖 Learning Insight
-Improving problem-solving speed and optimizing approaches.
+Building strong intuition in data structures and algorithms.
 
 ---
 
