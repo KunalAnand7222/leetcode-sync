@@ -22,14 +22,10 @@
 ---
 
 ## 🔥 Daily Activity
-- 🗓️ Problems Solved Today: 5
+- 🗓️ Problems Solved Today: 0
 
 ### 📋 Today's Problems
-- Count Indices With Opposite Parity
-- Maximize Fixed Points After Deletions
-- Minimum Cost to Move Between Indices
-- Rotate String
-- Sum of Primes Between Number and Its Reverse
+No problems solved today 🚀
 
 ---
 
