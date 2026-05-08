@@ -43,7 +43,7 @@
 
 ## 🎯 Performance
 - 🚀 Total Solved: 292
-- 🌍 Global Rank: 476200
+- 🌍 Global Rank: 474176
 - 💯 Interview Readiness Score: 100/100
 
 ---
