@@ -22,16 +22,10 @@
 ---
 
 ## 🔥 Daily Activity
-- 🗓️ Problems Solved Today: 7
+- 🗓️ Problems Solved Today: 0
 
 ### 📋 Today's Problems
-- Concatenate Array With Reverse
-- Count Valid Word Occurrences
-- Evaluate Reverse Polish Notation
-- Maximum Number of Jumps to Reach the Last Index
-- Minimize Array Sum Using Divisible Replacements
-- Minimum Cost to Buy Apples II
-- Unique Paths
+No problems solved today 🚀
 
 ---
 
@@ -55,7 +49,7 @@
 ---
 
 ## 🤖 Learning Insight
-Strengthening concepts for coding interviews.
+Enhancing debugging skills and logical thinking.
 
 ---
 
