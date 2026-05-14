@@ -22,10 +22,10 @@
 ---
 
 ## 🔥 Daily Activity
-- 🗓️ Problems Solved Today: 1
+- 🗓️ Problems Solved Today: 0
 
 ### 📋 Today's Problems
-- Minimum Moves to Make Array Complementary
+No problems solved today 🚀
 
 ---
 
