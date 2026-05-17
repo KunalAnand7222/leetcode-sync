@@ -22,21 +22,10 @@
 ---
 
 ## 🔥 Daily Activity
-- 🗓️ Problems Solved Today: 12
+- 🗓️ Problems Solved Today: 0
 
 ### 📋 Today's Problems
-- DI String Match
-- Find Minimum in Rotated Sorted Array II
-- Hand of Straights
-- Lexicographically Minimum String After Removing Stars
-- Max Increase to Keep City Skyline
-- Maximize Sum Of Array After K Negations
-- Maximum 69 Number
-- Maximum Units on a Truck
-- Minimum Operations to Make Median of Array Equal to K
-- Minimum Rectangles to Cover Points
-- Minimum Subsequence in Non-Increasing Order
-- Most Profit Assigning Work
+No problems solved today 🚀
 
 ---
 
@@ -60,7 +49,7 @@
 ---
 
 ## 🤖 Learning Insight
-Strengthening concepts for coding interviews.
+Building strong intuition in data structures and algorithms.
 
 ---
 
