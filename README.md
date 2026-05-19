@@ -22,10 +22,10 @@
 ---
 
 ## 🔥 Daily Activity
-- 🗓️ Problems Solved Today: 1
+- 🗓️ Problems Solved Today: 0
 
 ### 📋 Today's Problems
-- Jump Game IV
+No problems solved today 🚀
 
 ---
 
