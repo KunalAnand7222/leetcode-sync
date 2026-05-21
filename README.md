@@ -22,10 +22,10 @@
 ---
 
 ## 🔥 Daily Activity
-- 🗓️ Problems Solved Today: 1
+- 🗓️ Problems Solved Today: 0
 
 ### 📋 Today's Problems
-- Find the Prefix Common Array of Two Arrays
+No problems solved today 🚀
 
 ---
 
@@ -49,7 +49,7 @@
 ---
 
 ## 🤖 Learning Insight
-Improving problem-solving speed and optimizing approaches.
+Focusing on consistency and tackling diverse problem patterns.
 
 ---
 
