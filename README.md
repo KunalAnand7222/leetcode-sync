@@ -43,13 +43,13 @@
 
 ## 🎯 Performance
 - 🚀 Total Solved: 325
-- 🌍 Global Rank: 409235
+- 🌍 Global Rank: 407518
 - 💯 Interview Readiness Score: 100/100
 
 ---
 
 ## 🤖 Learning Insight
-Improving problem-solving speed and optimizing approaches.
+Focusing on consistency and tackling diverse problem patterns.
 
 ---
 
