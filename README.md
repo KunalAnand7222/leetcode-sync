@@ -22,10 +22,10 @@
 ---
 
 ## 🔥 Daily Activity
-- 🗓️ Problems Solved Today: 1
+- 🗓️ Problems Solved Today: 0
 
 ### 📋 Today's Problems
-- Count the Number of Special Characters I
+No problems solved today 🚀
 
 ---
 
