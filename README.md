@@ -22,10 +22,10 @@
 ---
 
 ## 🔥 Daily Activity
-- 🗓️ Problems Solved Today: 1
+- 🗓️ Problems Solved Today: 0
 
 ### 📋 Today's Problems
-- Count the Number of Special Characters II
+No problems solved today 🚀
 
 ---
 
@@ -49,7 +49,7 @@
 ---
 
 ## 🤖 Learning Insight
-Strengthening concepts for coding interviews.
+Improving problem-solving speed and optimizing approaches.
 
 ---
 
