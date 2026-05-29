@@ -22,10 +22,10 @@
 ---
 
 ## 🔥 Daily Activity
-- 🗓️ Problems Solved Today: 1
+- 🗓️ Problems Solved Today: 0
 
 ### 📋 Today's Problems
-- Longest Common Suffix Queries
+No problems solved today 🚀
 
 ---
 
@@ -49,7 +49,7 @@
 ---
 
 ## 🤖 Learning Insight
-Enhancing debugging skills and logical thinking.
+Improving problem-solving speed and optimizing approaches.
 
 ---
 
