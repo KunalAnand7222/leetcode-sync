@@ -9,15 +9,15 @@
 
 ## 📊 Problem Breakdown
 <p align="center">
-<img src="https://quickchart.io/chart?c=%7B%27type%27%3A%20%27doughnut%27%2C%20%27data%27%3A%20%7B%27labels%27%3A%20%5B%27Easy%27%2C%20%27Medium%27%2C%20%27Hard%27%5D%2C%20%27datasets%27%3A%20%5B%7B%27data%27%3A%20%5B168%2C%20180%2C%2031%5D%2C%20%27backgroundColor%27%3A%20%5B%27%2322c55e%27%2C%20%27%23facc15%27%2C%20%27%23ef4444%27%5D%7D%5D%7D%2C%20%27options%27%3A%20%7B%27plugins%27%3A%20%7B%27legend%27%3A%20%7B%27labels%27%3A%20%7B%27color%27%3A%20%27white%27%7D%7D%2C%20%27datalabels%27%3A%20%7B%27color%27%3A%20%27black%27%2C%20%27font%27%3A%20%7B%27weight%27%3A%20%27bold%27%2C%20%27size%27%3A%2014%7D%7D%7D%7D%7D" />
+<img src="https://quickchart.io/chart?c=%7B%27type%27%3A%20%27doughnut%27%2C%20%27data%27%3A%20%7B%27labels%27%3A%20%5B%27Easy%27%2C%20%27Medium%27%2C%20%27Hard%27%5D%2C%20%27datasets%27%3A%20%5B%7B%27data%27%3A%20%5B190%2C%20184%2C%2031%5D%2C%20%27backgroundColor%27%3A%20%5B%27%2322c55e%27%2C%20%27%23facc15%27%2C%20%27%23ef4444%27%5D%7D%5D%7D%2C%20%27options%27%3A%20%7B%27plugins%27%3A%20%7B%27legend%27%3A%20%7B%27labels%27%3A%20%7B%27color%27%3A%20%27white%27%7D%7D%2C%20%27datalabels%27%3A%20%7B%27color%27%3A%20%27black%27%2C%20%27font%27%3A%20%7B%27weight%27%3A%20%27bold%27%2C%20%27size%27%3A%2014%7D%7D%7D%7D%7D" />
 </p>
 
 ---
 
 ## 📈 Difficulty Distribution
-- 🟢 Easy: 44.3%  
-- 🟡 Medium: 47.5%  
-- 🔴 Hard: 8.2%  
+- 🟢 Easy: 46.9%  
+- 🟡 Medium: 45.4%  
+- 🔴 Hard: 7.7%  
 
 ---
 
@@ -25,26 +25,26 @@
 - 🗓️ Problems Solved Today: 20
 
 ### 📋 Today's Problems
-- Baseball Game
-- Binary Search
-- Count Elements With at Least K Greater Values
-- Count Subarrays With Majority Element I
-- Degree of an Array
-- Design HashMap
-- Design HashSet
-- Find Kth Largest XOR Coordinate Value
-- Find Pivot Index
-- Find the Kth Largest Integer in the Array
-- Flood Fill
-- Image Smoother
-- Largest Triangle Area
-- Longest Continuous Increasing Subsequence
-- Move Zeroes
-- Number of Lines To Write String
-- Range Sum Query - Immutable
-- Remove Duplicates from Sorted List
-- Toeplitz Matrix
-- Unique Morse Code Words
+- 1-bit and 2-bit Characters
+- Check If All 1's Are at Least Length K Places Away
+- Count Good Triplets
+- Destination City
+- Fair Candy Swap
+- Kids With the Greatest Number of Candies
+- Kth Missing Positive Number
+- Maximum Average Subarray I
+- Minimum Area Rectangle
+- Minimum Increment to Make Array Unique
+- Minimum Index Sum of Two Lists
+- Monotonic Array
+- Number of Students Doing Homework at a Given Time
+- Reorder Data in Log Files
+- Shortest Bridge
+- Shuffle String
+- Sort Array By Parity
+- Sort Array By Parity II
+- Surface Area of 3D Shapes
+- Three Consecutive Odds
 
 ---
 
@@ -61,14 +61,14 @@
 ---
 
 ## 🎯 Performance
-- 🚀 Total Solved: 379
+- 🚀 Total Solved: 405
 - 🌍 Global Rank: 378633
 - 💯 Interview Readiness Score: 100/100
 
 ---
 
 ## 🤖 Learning Insight
-Improving problem-solving speed and optimizing approaches.
+Building strong intuition in data structures and algorithms.
 
 ---
 
