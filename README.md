@@ -68,7 +68,7 @@
 ---
 
 ## 🤖 Learning Insight
-Building strong intuition in data structures and algorithms.
+Enhancing debugging skills and logical thinking.
 
 ---
 
