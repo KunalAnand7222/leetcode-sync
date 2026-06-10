@@ -22,10 +22,10 @@
 ---
 
 ## 🔥 Daily Activity
-- 🗓️ Problems Solved Today: 1
+- 🗓️ Problems Solved Today: 0
 
 ### 📋 Today's Problems
-- Maximum Total Subarray Value I
+No problems solved today 🚀
 
 ---
 
@@ -49,7 +49,7 @@
 ---
 
 ## 🤖 Learning Insight
-Building strong intuition in data structures and algorithms.
+Enhancing debugging skills and logical thinking.
 
 ---
 
