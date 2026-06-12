@@ -22,28 +22,10 @@
 ---
 
 ## 🔥 Daily Activity
-- 🗓️ Problems Solved Today: 19
+- 🗓️ Problems Solved Today: 0
 
 ### 📋 Today's Problems
-- Concatenation of Array
-- Construct Uniform Parity Array I
-- Count Items Matching a Rule
-- Decode XORed Array
-- Defuse the Bomb
-- Design an Ordered Stream
-- Find Nearest Point That Has the Same X or Y Coordinate
-- Find the Highest Altitude
-- Get Maximum in Generated Array
-- Limit Occurrences in Sorted Array
-- Longest Valid Parentheses
-- Maximum Ascending Subarray Sum
-- Maximum Population Year
-- Minimum Operations to Make the Array Increasing
-- Minimum Swaps to Move Zeros to End
-- Number Of Rectangles That Can Form The Largest Square
-- Regular Expression Matching
-- Sign of the Product of an Array
-- Truncate Sentence
+No problems solved today 🚀
 
 ---
 
@@ -67,7 +49,7 @@
 ---
 
 ## 🤖 Learning Insight
-Improving problem-solving speed and optimizing approaches.
+Strengthening concepts for coding interviews.
 
 ---
 
