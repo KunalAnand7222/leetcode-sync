@@ -43,13 +43,13 @@ No problems solved today 🚀
 
 ## 🎯 Performance
 - 🚀 Total Solved: 530
-- 🌍 Global Rank: 184386
+- 🌍 Global Rank: 184526
 - 💯 Interview Readiness Score: 100/100
 
 ---
 
 ## 🤖 Learning Insight
-Building strong intuition in data structures and algorithms.
+Enhancing debugging skills and logical thinking.
 
 ---
 
