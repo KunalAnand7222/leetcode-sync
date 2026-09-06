@@ -9,41 +9,38 @@
 
 ## 📊 Problem Breakdown
 <p align="center">
-<img src="https://quickchart.io/chart?c=%7B%27type%27%3A%20%27doughnut%27%2C%20%27data%27%3A%20%7B%27labels%27%3A%20%5B%27Easy%27%2C%20%27Medium%27%2C%20%27Hard%27%5D%2C%20%27datasets%27%3A%20%5B%7B%27data%27%3A%20%5B250%2C%20258%2C%2043%5D%2C%20%27backgroundColor%27%3A%20%5B%27%2322c55e%27%2C%20%27%23facc15%27%2C%20%27%23ef4444%27%5D%7D%5D%7D%2C%20%27options%27%3A%20%7B%27plugins%27%3A%20%7B%27legend%27%3A%20%7B%27labels%27%3A%20%7B%27color%27%3A%20%27white%27%7D%7D%2C%20%27datalabels%27%3A%20%7B%27color%27%3A%20%27black%27%2C%20%27font%27%3A%20%7B%27weight%27%3A%20%27bold%27%2C%20%27size%27%3A%2014%7D%7D%7D%7D%7D" />
+<img src="https://quickchart.io/chart?c=%7B%27type%27%3A%20%27doughnut%27%2C%20%27data%27%3A%20%7B%27labels%27%3A%20%5B%27Easy%27%2C%20%27Medium%27%2C%20%27Hard%27%5D%2C%20%27datasets%27%3A%20%5B%7B%27data%27%3A%20%5B250%2C%20260%2C%2043%5D%2C%20%27backgroundColor%27%3A%20%5B%27%2322c55e%27%2C%20%27%23facc15%27%2C%20%27%23ef4444%27%5D%7D%5D%7D%2C%20%27options%27%3A%20%7B%27plugins%27%3A%20%7B%27legend%27%3A%20%7B%27labels%27%3A%20%7B%27color%27%3A%20%27white%27%7D%7D%2C%20%27datalabels%27%3A%20%7B%27color%27%3A%20%27black%27%2C%20%27font%27%3A%20%7B%27weight%27%3A%20%27bold%27%2C%20%27size%27%3A%2014%7D%7D%7D%7D%7D" />
 </p>
 
 ---
 
 ## 📈 Difficulty Distribution
-- 🟢 Easy: 45.4%  
-- 🟡 Medium: 46.8%  
+- 🟢 Easy: 45.2%  
+- 🟡 Medium: 47.0%  
 - 🔴 Hard: 7.8%  
 
 ---
 
 ## 🔥 Daily Activity
-- 🗓️ Problems Solved Today: 19
+- 🗓️ Problems Solved Today: 16
 
 ### 📋 Today's Problems
 - Add Two Numbers II
-- Bulb Switcher
 - Can I Win
-- Count Numbers with Unique Digits
 - Elimination Game
 - Generate Random Point in a Circle
 - Guess Number Higher or Lower II
 - Implement Rand10() Using Rand7()
 - Insert Delete GetRandom O(1)
-- Integer Break
 - Linked List Random Node
 - Minimum Moves to Equal Array Elements
 - Nth Digit
+- Random Flip Matrix
 - Random Pick Index
+- Random Point in Non-overlapping Rectangles
 - Reconstruct Original Digits from English
 - Shuffle an Array
 - Sum of Two Integers
-- Super Ugly Number
-- Water and Jug Problem
 
 ---
 
@@ -60,14 +57,14 @@
 ---
 
 ## 🎯 Performance
-- 🚀 Total Solved: 551
-- 🌍 Global Rank: 185129
+- 🚀 Total Solved: 553
+- 🌍 Global Rank: 170430
 - 💯 Interview Readiness Score: 100/100
 
 ---
 
 ## 🤖 Learning Insight
-Strengthening concepts for coding interviews.
+Enhancing debugging skills and logical thinking.
 
 ---
 
