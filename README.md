@@ -64,7 +64,7 @@
 ---
 
 ## 🤖 Learning Insight
-Strengthening concepts for coding interviews.
+Improving problem-solving speed and optimizing approaches.
 
 ---
 
