@@ -49,7 +49,7 @@ No problems solved today 🚀
 ---
 
 ## 🤖 Learning Insight
-Enhancing debugging skills and logical thinking.
+Building strong intuition in data structures and algorithms.
 
 ---
 
