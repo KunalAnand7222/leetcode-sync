@@ -43,13 +43,13 @@ No problems solved today 🚀
 
 ## 🎯 Performance
 - 🚀 Total Solved: 561
-- 🌍 Global Rank: 168264
+- 🌍 Global Rank: 168371
 - 💯 Interview Readiness Score: 100/100
 
 ---
 
 ## 🤖 Learning Insight
-Strengthening concepts for coding interviews.
+Improving problem-solving speed and optimizing approaches.
 
 ---
 
